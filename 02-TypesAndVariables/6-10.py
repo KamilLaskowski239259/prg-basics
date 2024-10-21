@@ -23,4 +23,5 @@ a=movie.rfind('Lord')
 print(a)
 
 # print where in the text is the word "dragon"
-...
+a=movie.rfind('Dragon')
+print(a)
