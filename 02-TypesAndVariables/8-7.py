@@ -1,0 +1,5 @@
+normal=int(input("Enter your number: "))
+bin=bin(normal)
+hex=hex(normal)
+print(f'Binary noumber: {bin}')
+print(f'Hexadicimal number: {hex}')

@@ -5,8 +5,8 @@
 #
 distance = int(input('Enter distance in km: '))
 fuel_price = float(input('Enter fuel price per liter: '))
-fuel_consumption = float(input('Enter furl consumption: '))
-total_fuel_consumption = ...
-total_cost = ...
-print(...)
-print(...)
+fuel_consumption = float(input('Enter fuel consumption in L/KM: '))
+total_fuel_consumption = round(distance/fuel_consumption, 2)
+total_cost = round(total_fuel_consumption*fuel_price, 2)
+print(f"You used {total_fuel_consumption} liter of fuel")
+print(f"You have to pay {total_cost}")
