@@ -11,3 +11,7 @@ for char in text:
         vowel_count += 1
 
 print(f"The number of vowels in the text is: {vowel_count}")
+
+while char in vowels:
+    vowel_count += 1
+print(f'The number of vowels in the text is: {vowel_count}')
