@@ -1,5 +1,11 @@
-def f(binary_number):
-    return all(char in '01' for char in binary_number)
-number=input("Enter number: ")
-result=f(number)
-print(result)
+def f(binary):
+    is_binary=False
+    for i in binary:
+        if i=="0" or i=="1":
+            is_binary = True
+        else :
+            is_binary = False
+            break
+    return is_binary
+print(f('101'))
+print(f('131'))
