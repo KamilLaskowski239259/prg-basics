@@ -12,4 +12,4 @@ print('last but one value', arr[len(arr) - 2])
 print('first + last value', arr[0]+arr[-1])
 print('middle value', arr[len(arr)//2])
 for i in arr:
-    print(i,end= " ")
+    print(i)
