@@ -1,0 +1,27 @@
+[
+    {
+        "years":21,
+        "course":"statistics",
+        "average_grade":4
+    },
+    {
+        "years":18,
+        "course":"statistics",
+        "average_grade":3
+    },
+    {
+        "years":21,
+        "course":"statistics",
+        "average_grade":4
+    },
+    {
+        "years":20,
+        "course":"Economy",
+        "average_grade":3
+    },
+    {
+        "years":19,
+        "course":"statistics",
+        "average_grade":4
+    }
+]
