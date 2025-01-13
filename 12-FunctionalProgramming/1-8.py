@@ -1,0 +1,5 @@
+initials=lambda name,surname: name[0].upper()+surname[0].upper()
+name=input("Enter name: ")
+surname=input("Enter surname: ")
+result=initials(name,surname)
+print(f"First letters are {result}")
