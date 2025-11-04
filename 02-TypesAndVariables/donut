@@ -66,5 +66,5 @@ if __name__ == "__main__":
         B += phi_spacing
         print("\x1b[H")
         pprint(render_frame(A, B))
-        sleep(0.001)                # Add sleep funcion here!
+        sleep(0.1)                # Add sleep funcion here!
                                    # Try diffrent seconds!
